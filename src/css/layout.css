@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  background: #5b98b1;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.text {
+  font-family: sans-serif;
+  font-size: 0.85rem;
+  color: #000;
+  background: #fff;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  padding: 5px 10px 7px;
+  box-sizing: border-box;
+}
+
+.text a {
+  color: #666;
+  text-decoration: none;
+}
+
+.text a:hover {
+  color: #999;
+}
+
+.wrapper-parallax {
+  background: #f2eee7;
+  position: relative;
+  height: 750px;
+  margin: 0 auto 0;
+  overflow: hidden;
+}
+
+.bg {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 700px;
+}
+
+.inner {
+  position: relative;
+  height: 700px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  bottom: 0;
+  left: 0; /* For JS */
+
+  /* Set timeout update in JS accordingly */
+  transition: margin-left 0.75s;
+}
+
+.layer-0 .inner {
+  background: url('../Images/0.png') 75% 0 no-repeat;
+  width: 1100px;
+}
+
+.layer-1 .inner {
+  background: url('../Images/1.png') 50% 10% repeat-x;
+}
+
+.layer-2 .inner {
+  background: url('../Images/2.png') 50% 100% repeat-x;
+}
+
+.layer-3 .inner {
+  background: url('../Images/3.png') 50% 65% repeat-x;
+}
+
+.layer-4 .inner {
+  background: url('../Images/4.png') 50% 100% repeat-x;
+}
+
+.layer-5 .inner {
+  background: url('../Images/5.png') 50% 100% repeat-x;
+}
+
+.layer-6 .inner {
+  background: url('../Images/6.png') 50% 100% repeat-x;
+}
