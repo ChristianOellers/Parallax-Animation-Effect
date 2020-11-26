@@ -16,7 +16,6 @@
   "javascript.validate.enable": false,
   "scss.validate": false,
   "stylelint.enable": true,
-  "flow.pathToFlow": "${workspaceRoot}/node_modules/.bin/flow",
   "htmlhint.documentSelector": [
     "html"
   ],
